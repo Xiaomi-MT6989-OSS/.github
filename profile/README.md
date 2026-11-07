@@ -32,7 +32,7 @@ Redmi K70 Ultra（`rothko`）的非官方 LineageOS 23.2 设备适配源码与�
 
 ## 当前状态
 
-仓库内容目前是本地公开候选，尚未发布到 GitHub。候选的设备树、vendor 元数据、内核提取配方和 integration manifest 已做本地结构及来源核对；公开候选尚未经过独立的干净同步和完整 ROM 构建。请以 integration 仓库的 `VALIDATION.md`、`KNOWN_ISSUES.md` 和 `baseline.json` 为准，不要把之前其他镜像的实机结果当成这个候选的验收结果。
+这是非官方的设备适配与公开协作项目。当前源码组合尚未通过独立的干净同步和完整 ROM 构建；请先查看 integration 仓库的 `VALIDATION.md`、`KNOWN_ISSUES.md` 和 `baseline.json`。其他镜像上的实机结果不自动代表当前源码组合已验收。
 
 当前没有独立的 rothko common 仓库、可编译内核源码仓库或单独的 MIUI Camera 仓库。等出现真实共享代码、完整内核源码或需要单独维护的相机组件时，再按实际依赖增加仓库。
 
