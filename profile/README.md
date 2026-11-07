@@ -6,10 +6,10 @@ Redmi K70 Ultra（`rothko`）的非官方 LineageOS 23.2 设备适配源码与�
 
 | 仓库 | 用途 | 当前内容边界 |
 | --- | --- | --- |
-| `android_device_xiaomi_rothko` | rothko 设备树：设备配置、硬件服务、overlay、SELinux 策略和提取工具 | 当前设备树的源码部分；stock 二进制需本地提取 |
-| `proprietary_vendor_xiaomi_rothko` | vendor 构建规则和 stock 文件来源账本 | 不含原厂 vendor/ODM 二进制；参与者需自行准备匹配固件并提取 |
-| `rothko-kernel-extraction` | 从指定 stock 固件提取内核材料 | 当前是校验和固定的提取配方，不是可编译的 Linux 内核源码 |
-| `rothko-lineage-integration` | 将设备树与 Android 源码组合起来 | 固定 manifest、平台补丁、提取和构建说明、已知问题及验证范围 |
+| [`android_device_xiaomi_rothko`](https://github.com/Xiaomi-MT6989-OSS/android_device_xiaomi_rothko) | rothko 设备树：设备配置、硬件服务、overlay、SELinux 策略和提取工具 | 当前设备树的源码部分；stock 二进制需本地提取 |
+| [`proprietary_vendor_xiaomi_rothko`](https://github.com/Xiaomi-MT6989-OSS/proprietary_vendor_xiaomi_rothko) | vendor 构建规则和 stock 文件来源账本 | 不含原厂 vendor/ODM 二进制；参与者需自行准备匹配固件并提取 |
+| [`rothko-kernel-extraction`](https://github.com/Xiaomi-MT6989-OSS/rothko-kernel-extraction) | 从指定 stock 固件提取内核材料 | 当前是校验和固定的提取配方，不是可编译的 Linux 内核源码 |
+| [`rothko-lineage-integration`](https://github.com/Xiaomi-MT6989-OSS/rothko-lineage-integration) | 将设备树与 Android 源码组合起来 | 固定 manifest、平台补丁、提取和构建说明、已知问题及验证范围 |
 
 ## 源码基线
 
