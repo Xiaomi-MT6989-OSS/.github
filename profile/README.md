@@ -16,7 +16,7 @@ Redmi K70 Ultra（`rothko`）的非官方 LineageOS 23.2 设备适配源码与�
 - Android 源码：LineageOS 23.2 / Android 16。
 - 设备固件基线：HyperOS `OS3.0.307.0.WNNCNXM`。
 - stock vendor：Android 14 / API 34。
-- integration manifest 固定 1,167 个项目；另应用 13 组平台补丁，共 74 个提交。
+- 最后的 23.2 源码快照保存于 2026-11-14，integration manifest 固定 1,167 个项目，另有 15 组平台补丁，共 83 个提交。
 
 ## 其他必需的上游仓库
 
@@ -26,7 +26,7 @@ Redmi K70 Ultra（`rothko`）的非官方 LineageOS 23.2 设备适配源码与�
 - [`LineageOS/android_hardware_xiaomi`](https://github.com/LineageOS/android_hardware_xiaomi)，源码路径 `hardware/xiaomi`。
 - [`LineageOS/android_device_mediatek_sepolicy_vndr`](https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr)，源码路径 `device/mediatek/sepolicy_vndr`。
 
-硬件仓库的固定提交和 rothko 所需补丁记录在 `rothko-lineage-integration`。其中 `hardware/mediatek` 当前有 5 个通用 Thermal HAL 修复提交，集成仓库以可重放补丁系列维护；其余上游仓库直接使用 manifest 固定版本。
+硬件仓库的固定提交和 rothko 所需补丁记录在 `rothko-lineage-integration`。其中 `hardware/mediatek` 包含 5 个 Thermal HAL 修复提交，`device/mediatek/sepolicy_vndr` 有 1 个与设备树 ISP 服务标签配套的修复。
 
 只下载设备树不足以复现完整系统。请从 `rothko-lineage-integration` 开始，按其中的 `BUILD.md` 检出固定版本，并在本机准备 stock 固件输入。
 
